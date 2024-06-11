@@ -24,11 +24,13 @@ class MyTextfield extends StatelessWidget {
           enabledBorder: OutlineInputBorder(
             borderSide:
                 BorderSide(color: Theme.of(context).colorScheme.tertiary),
-            borderRadius: BorderRadius.circular(10),
+            borderRadius: BorderRadius.circular(15),
           ),
           focusedBorder: OutlineInputBorder(
             borderSide:
-                BorderSide(color: Theme.of(context).colorScheme.tertiary),
+                BorderSide(color: Theme.of(context).colorScheme.primary),
+            borderRadius: BorderRadius.circular(15)
+            
           ),
           fillColor: Theme.of(context).colorScheme.secondary,
           filled: true,
