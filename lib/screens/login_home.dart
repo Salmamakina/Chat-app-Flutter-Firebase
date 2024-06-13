@@ -8,6 +8,10 @@ class LoginHome extends StatelessWidget {
   final void Function()? onTap;
   LoginHome({super.key, required this.onTap});
 
+   void login() async{
+   
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -93,6 +97,6 @@ class LoginHome extends StatelessWidget {
     );
   }
 
-  void login() {}
+ 
   void register() {}
 }

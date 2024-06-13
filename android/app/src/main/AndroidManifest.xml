@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.chatapp">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.chatapp"  xmlns:tools="http://schemas.android.com/tools">
     <application
         android:label="chat_app"
         android:name="${applicationName}"
@@ -42,4 +42,5 @@
             <data android:mimeType="text/plain"/>
         </intent>
     </queries>
+    <uses-sdk tools:overrideLibrary="io.flutter.plugins.firebase.auth"/>
 </manifest>
